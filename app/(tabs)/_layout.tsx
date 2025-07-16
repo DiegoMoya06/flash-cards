@@ -34,17 +34,17 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="library"
+        name="deck"
         options={{
-          title: 'Library',
-          tabBarIcon: ({ color }) => <IconSymbol size={20} name="library" color={color} />,
+          title: 'Deck',
+          tabBarIcon: ({ color }) => <IconSymbol size={20} name="books.vertical" color={color} />,
         }}
       />
       <Tabs.Screen
         name="settings"
         options={{
-          title: 'Settings',
-          tabBarIcon: ({ color }) => <IconSymbol size={20} name="settings.fill" color={color} />,
+          title: 'AddCard',
+          tabBarIcon: ({ color }) => <IconSymbol size={20} name="gearshape.fill" color={color} />,
         }}
       />
     </Tabs>
