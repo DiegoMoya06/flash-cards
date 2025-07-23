@@ -3,11 +3,11 @@ export type RootStackPaamList = {
         screen: "index" | "deck" | "settings";
     };
     "Deck": { deckId: string };
-    "+not-found": undefined;
+    "+not-found": {};
 };
 
 export type TabParamList = {
-    index: undefined;
-    library: undefined;
+    index: {};
+    library: {};
     deck: { deckId: string }
 }
